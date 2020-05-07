@@ -1,0 +1,26 @@
+/**************TAG SELECTORS**********/
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+/*********CLASS SELECTORS************/
+.container-fluid {
+  padding: 1% 15%;
+}
+
+.ANLHlogo {
+  font-family: 'Baloo 2', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/***********************ID SELECTORS**************/
+#title {
+  background-color: #7fcd91;
+  color: #655c56;
+}
