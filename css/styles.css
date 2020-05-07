@@ -7,16 +7,25 @@ h1 {
   padding-bottom: 2.3rem;
 }
 
+h3 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
 body {
   font-family: 'Ubuntu', sans-serif;
+  color: #655c56;
 }
+
 /*********CLASS SELECTORS************/
 .container-fluid {
   padding: 1% 15%;
 }
 
 /**nagivation bar**/
-
 .navbar {
   padding: 0 0 2rem;
 }
@@ -35,7 +44,6 @@ body {
 }
 
 /**title text and images**/
-
 .ANLHlogo {
   font-family: 'Baloo 2', cursive;
   font-size: 4rem;
@@ -50,6 +58,19 @@ body {
 .title-image {
   width: 70%;
   transform: translateX(6rem);
+}
+
+.feature-icon {
+  font-size: 3.5rem;
+  line-height: 3;
+  color: #7fcd91;
+}
+
+/*****features****/
+.features-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
 }
 
 /***********************ID SELECTORS**************/
