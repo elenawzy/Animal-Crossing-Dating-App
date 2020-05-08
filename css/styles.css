@@ -7,6 +7,11 @@ h1 {
   padding-bottom: 2.3rem;
 }
 
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
 h3 {
   font-weight: bold;
 }
@@ -33,6 +38,7 @@ body {
 .navbar-brand {
   font-family: 'Baloo 2', cursive;
   font-size: 2rem;
+  color: #fffff2;
 }
 
 .nav-item {
@@ -60,19 +66,52 @@ body {
   transform: translateX(6rem);
 }
 
+/*****features****/
+
 .feature-icon {
   font-size: 3.5rem;
   line-height: 3;
+  color: #94d3ac;
+  padding-bottom: 1rem;
+}
+
+.feature-icon:hover {
   color: #7fcd91;
 }
 
-/*****features****/
 .features-container {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
 }
 
+/*****testimonials****/
+
+#testimonials {
+  padding: 7% 20%;
+  text-align: center;
+  background-color: #7fcd91;
+  color: #fffff2;
+}
+
+.testimonial-img {
+  padding-top: 1rem;
+  width: 20%;
+}
+
+/*****press*****/
+
+#press {
+  background-color: #7fcd91;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+  border-radius: 10%;
+}
 /***********************ID SELECTORS**************/
 #title {
   background-color: #7fcd91;
