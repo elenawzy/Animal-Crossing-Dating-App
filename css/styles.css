@@ -26,6 +26,11 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+
 /*********CLASS SELECTORS************/
 .container-fluid {
   padding: 1% 15%;
@@ -78,7 +83,7 @@ body {
 /*****features****/
 
 #features {
-  background-color: #fff;
+  background-color: #fffff2;
   position: relative;
 }
 
@@ -133,6 +138,7 @@ body {
 
 #pricing {
   padding: 100px;
+  background-color: #fffff2;
 }
 
 .plan-title {
@@ -153,6 +159,14 @@ body {
     transform: translateX(0);
   }
 }
+
+/* .pricing-body {
+  background-color: #effcef;
+}
+
+.pricing-header {
+  background-color: #grey;
+} */
 
 /***********CTA*********/
 
