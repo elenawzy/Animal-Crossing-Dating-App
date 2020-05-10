@@ -51,6 +51,11 @@ body {
 }
 
 /**title text and images**/
+#title {
+  background-color: #7fcd91;
+}
+
+
 .ANLHlogo {
   font-family: 'Baloo 2', cursive;
   font-size: 4rem;
@@ -63,11 +68,19 @@ body {
 }
 
 .title-image {
-  width: 70%;
+  width: 20rem;
   transform: translateX(6rem);
 }
 
+.title-text {
+  padding-bottom: 80px;
+}
 /*****features****/
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
 
 .feature-icon {
   font-size: 3.5rem;
@@ -129,7 +142,39 @@ body {
 .pricing-column {
   padding: 3% 2%;
 }
-/***********************ID SELECTORS**************/
-#title {
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: translateX(0);
+  }
+}
+
+/***********CTA*********/
+
+#cta {
   background-color: #7fcd91;
+  text-align: center;
+  padding: 100px 20%;
+}
+
+/***********footer**********/
+
+#footer {
+  text-align: center;
+  padding: 100px 300px 60px 300px;
+}
+
+.footer-icon {
+  padding: 0 1% 3% 1%;
+  font-size: 1.3rem;
+}
+
+.copyright-text {
+  color: grey;
+  font-size: 1rem;
 }
